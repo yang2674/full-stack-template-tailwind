@@ -37,7 +37,7 @@ function App() {
                 <Nav />
                 <Switch>
                     {/* Visiting localhost:3000 will redirect to localhost:3000/home */}
-                    <Redirect exact from="/" to="/home" />
+                    <Redirect exact from="/" to="/registration" />
 
                     {/* Visiting localhost:3000/about will show the about page. */}
                     <Route
@@ -90,7 +90,7 @@ function App() {
                         )}
                     </Route>
 
-                    <Route exact path="/home">
+                    <Route exact path="/">
                         {user.id ? (
                             // If the user is already logged in,
                             // redirect them to the /user page
