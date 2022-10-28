@@ -10,8 +10,8 @@ function Nav() {
     return (
         <div className="nav">
             <Link to="/">
-                <h2 className="title w-1/4 mx-auto text-center py-5 text-white text-9xl">
-                    mindfully
+                <h2 className="title w-1/4 mx-auto text-center py-5 text-white text-6xl">
+                    Your App Title
                 </h2>
             </Link>
             <div>
