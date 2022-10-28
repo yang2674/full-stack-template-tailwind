@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import LogOutButton from '../LogOutButton/LogOutButton';
-// import './Nav.css';
 import '../App/App.css';
 import { useSelector } from 'react-redux';
 
@@ -11,7 +10,7 @@ function Nav() {
     return (
         <div className="nav">
             <Link to="/home">
-                <h2 className="title w-1/4 mx-auto text-center py-5 text-black text-9xl">
+                <h2 className="title w-1/4 mx-auto text-center py-5 text-white text-9xl">
                     mindfully
                 </h2>
             </Link>
